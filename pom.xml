@@ -43,6 +43,13 @@
             <scope>test</scope>
         </dependency>
         <dependency>
+            <groupId>com.apiomat.nativemodule</groupId>
+            <artifactId>Gt</artifactId>
+            <version>1.0.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/Gt.jar</systemPath>
+        </dependency>
+        <dependency>
             <groupId>swagger-annotations</groupId>
             <artifactId>swagger-annotations</artifactId>
             <version>1.5.12</version>
